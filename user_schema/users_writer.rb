@@ -22,7 +22,7 @@ class UserWriter
 		first_name = Faker::Name.first_name
 	 	last_name = Faker::Name.last_name
 		gender = ["male","female"].sample
-	 	birthday = Faker::Date.between(Date.new(1950,1,1),Date.new(2008,1,1))
+	 	birthday = Faker::Date.between(Date.new(1950,1,1),Date.new(1999,1,1))
 	 	email = Faker::Internet.email
 	 	phone = Faker::PhoneNumber.phone_number
 
